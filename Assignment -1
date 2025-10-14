@@ -1,0 +1,141 @@
+Linux  Assignment -1
+
+NAME : LIKHITHA .M                                       
+USN : ENG24CY0126   
+SECTION : A
+ROLL No.  :  21
+                                        
+ 
+1.	What is Linux Operating System (OS)? List three pros and cons of it.
+
+Ans :- It is a free and open source operating system based on the linux
+And it can share charcterstices with the original unix  system
+
+Pros:-
+•	Change almost everthing about how the system looks
+•	Source code is openly available
+•	It is permission based system,less vulnerable to viruses
+
+Cons:-
+•	Not a beginner friendly,it is difficult to understand
+•	Without proper drivers ,device may not be work.
+•	Commercial applications are not officially available,available  in unofficaially only.
+
+
+
+2.	 Differentiate between Linux, Mac, Android, and Windows OS with at least six unique features.
+
+Ans:- 	 Linux :-
+•	It is good for servers,coding etc…
+•	It have a commercial software limatations like MS office,AutoCAD,etc
+•	It can be modify and distrubt the source code is freely available.
+•	Can use alternative like virtual machine
+•	Not good for gamers,designers,etc….
+•	Servers and embedded devices it is the best choice
+
+Mac:-
+•	It is developer toolbox , powerful but it requires skill
+•	Built on a UNIX kernel
+•	It cannot be modified and distrubt the source code because it is controlled by apple and Microsoft
+•	Exclusive hardware runs only in apple devices like MacBook,etc
+•	Strict app store policies
+•	Stable and developer friendly
+
+Android :-
+•	It is particularly designed for smartphones,tablets from various manufactures because hardware support
+•	It is also closed -source code developed by google hence it cannot be modified and distrubt
+•	It is designed for user-friendly mobile experience
+•	It allow access vast library of applications from google play store
+•	World most usable mobile OS
+•	It designed for touchscreens, simple graphical interface,etc
+
+
+
+Windows :-
+•	It is also closed-source code developed by Microsoft hence it cannot be modified and distrubt
+•	It made for user-friendly with little technical knowlodge
+•	Used in everywhere,  particularly in offices and gaming
+•	Supporting a wide range of devices
+•	Particularly designed for personal computers, laptops,etc
+•	Strict control on system behaviour and appearance
+
+
+3.	Why is Linux preferred for Mainframe Servers for legacy application? Give three out-of-the-box technical reasons. 
+Ans:- 
+•	It has a high stability and reliability ,its robust security architecture that can handle complex permission structures that essential for legacy software
+•	Enchanced security and access control, it have multiple granular  permission and multiple authentication methods and it prevents the unauthorized changes or breaches
+•	Its flexibility and customizability, ability to run on wide range of hardware, including older systems that also provide compatibility and functionality for older software
+
+
+4.	Explain the structure of the Linux File System with proper diagram. Note: you can use the tree command to find it out.
+
+Ans:- Diagram representation of file system tree
+    /
+├── bin
+├── boot
+├── dev
+├── etc
+├── home
+├── lib
+├── lib64
+├── media
+├── mnt
+├── opt
+├── proc
+├── root
+├── run
+├── sbin
+├── srv
+├── tmp
+├── usr
+└── var
+•	Directories in linux
+
+•	/ - starting point of the file system 
+•	/root – the home directory for the root user
+•	/tmp – temporary files created by users and applications
+•	/lib – stores essential shared libraries required by programs
+•	/opt – third party software packages
+•	/run – stores volatile runtime data
+•	/srv – holds data for services provided by the system
+•	/dev – shows device flows
+•	/var- variable data
+
+
+
+5.	If Linux OS is open-source, how do companies like Red Hat still making money from it? Do a market study and answer properly.
+Ans : -  
+•	 companies making money by selling services,not by the software itself and also give with safe and tested version of linux 
+•	companies they want a secure,reliable,and supported linux
+•	Red hat earns money by subscriptions,training ,consulting,cloud         partnership 
+•	Demand raising on hybrid IT,DevOps and secure system 
+•	market is growing is fast estimately $100 billion by 2032
+
+
+6.	Write the command to display today’s date and time (i.e., current System time). 
+Ans:- date,time/T
+
+
+7.	Which command is used to check how long the system has been running? 
+Ans:- uptime
+
+8.	What is the difference between shutdown -h now and halt? 
+
+Ans:-   shutdown -h now  -- attempts to power off the machine after
+Halt – typically stops the CPU and leaves the system on
+
+
+9.	Compare init 0 and shutdown -h. Which is safer? Why? 
+
+Ans:-  shutdown -h safer than the init 0 because -h perform a more complete shutdown process by terminating all running process it execute in more gracefully and prepare the system for safe power off
+Init 0 not safe because it performs lower level operations and leads to data inconsistencies or corruption
+
+10. A system administrator accidentally powers off a Server machine without shutting it down properly. What problems can occur to the said Server? 
+
+Ans:-  
+•	file system corruption like data in RAM may not be written to disk 
+•	unsaved  and in progress database transactions may be wasted out
+•	they may be critical to restart correctly after reboot
+•	sudden power off cause stress to hard disk
+•	without proper shutdown lead to crashed files,lost data,etc
+
